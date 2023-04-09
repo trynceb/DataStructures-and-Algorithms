@@ -27,4 +27,12 @@ class LinkedList {
     shift() {...}
 }
 
+let myLinkedList = new LinkedList(23)
+myLinkedList.push(7)
+myLinkedList.unshift(3)
+myLinkedList.insert(1, 11)
+myLinkedList.remove(1)
+myLinkedList.pop()
+myLinkedList.shift()
+
 */
